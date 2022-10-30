@@ -5,16 +5,13 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 
 class CallbackTest {
-    private WebDriver driver;
+    public WebDriver driver;
 
-   @BeforeAll
+    @BeforeAll
     static void setUpAll() {
-
-     System.setProperty("WebDriver.chrome.driver", "C:\\driver/Chromedriver.exe");
+        System.setProperty("WebDriver.chrome.driver", "D:/web/driver/Chromedriver.exe");
     }
 
     @BeforeEach
@@ -31,8 +28,7 @@ class CallbackTest {
 
     @Test
     void shouldTestSomething() {
-
-       itdriver.get("http://localhost:9999");
+        driver.get("http://localhost:9999");
     }
 }
 
