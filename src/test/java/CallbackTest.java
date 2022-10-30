@@ -11,9 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 class CallbackTest {
     private WebDriver driver;
 
-
-
-    @BeforeAll
+   @BeforeAll
     static void setUpAll() {
 
      System.setProperty("WebDriver.chrome.driver", "C:\\driver/Chromedriver.exe");
@@ -33,7 +31,8 @@ class CallbackTest {
 
     @Test
     void shouldTestSomething() {
-        driver.get("http://localhost:9999");
+
+       itdriver.get("http://localhost:9999");
     }
 }
 
