@@ -7,23 +7,17 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
 
-
 class CallbackTest {
-
-
     @BeforeAll
     static void setUpAll() {
-
     }
 
     @BeforeEach
     void setUp() {
-
     }
 
     @AfterEach
     void tearsDow() {
-
     }
 
     @Test
