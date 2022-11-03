@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0de36ce7-b77b-4427-ae97-bcb635a209a7" name="Changes" comment="" />
+    <list default="true" id="0de36ce7-b77b-4427-ae97-bcb635a209a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CallbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CallbackTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +88,7 @@
       <command value="java -jar app-order.jar" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.web [dependencies]">
+  <component name="RunManager" selected="Gradle.CallbackTest.shouldSendRequest">
     <configuration name="CallbackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CallbackTest.Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CallbackTest.shouldSendRequest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CallbackTest.Test&quot;" />
+            <option value="&quot;CallbackTest.shouldSendRequest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CallbackTest.shouldSendRequest" />
+        <item itemvalue="Gradle.CallbackTest" />
         <item itemvalue="Gradle.web [dependencies]" />
         <item itemvalue="Gradle.CallbackTest.shouldTestSomething" />
-        <item itemvalue="Gradle.CallbackTest" />
         <item itemvalue="Gradle.web [test]" />
-        <item itemvalue="Gradle.CallbackTest.Test" />
       </list>
     </recent_temporary>
   </component>
